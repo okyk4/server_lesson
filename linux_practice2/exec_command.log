@@ -1,0 +1,151 @@
+    1  ls
+    2  apt-get install git
+    3  git -v
+    4  apt update
+    5  apt-get install git
+    6  git -v
+    7  git status
+    8  ls
+    9  cd /root
+   10  mkdir server_lesson && cd server_lesson
+   11  git -v
+   12  git init
+   13  ls -a
+   14  touch first.txt
+   15  ls -a
+   16  pwd
+   17  mkdir git status
+   18  ls
+   19  rm -r git status
+   20  ls
+   21  git status
+   22  git add .
+   23  git status
+   24  ls
+   25  git status
+   26  ls
+   27  locale -a
+   28  update-locale LANG=en_US.utf8
+   29  check-language-support
+   30  locale -a
+   31  apt install language-pack-ja
+   32  update-locale LANG=ja_JP.UTF8
+   33  locale
+   34  locale -a
+   35  echo $LANG
+   36  reboot
+   37  exit
+   38  ls
+   39  cd /root
+   40  ls
+   41  cd server_lesson
+   42  pwd
+   43  echo $LANG
+   44  shutdown -r now
+   45  git status
+   46  git commit -m 'add: first.txt'
+   47  git status
+   48  git config --global user.email "xxxxx@xxx.com"
+   49  git config --global user.name "okyk"
+   50  git commit -m 'add: first.txt'
+   51  git log
+   52  mkdir linux_practice1 && mkdir linux_practice1/public && touch linux_practice1/public/index.php
+   53  ls
+   54  ls linux_practice1
+   55  ls linux_practice1/public
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m 'add: linux_practice1/public/index.php'
+   60  git log
+   61  ls
+   62  cd linux_practice1
+   63  ls
+   64  cd public
+   65  ls
+   66  cp index.php index_bk.php
+   67  ls
+   68  git status
+   69  git add .
+   70  git commit -m 'add: linux_practice1/public/index_bk.php'
+   71  git log
+   72  cd ..
+   73  ls
+   74  cp -r public tmp
+   75  ls
+   76  cd tmp
+   77  ls
+   78  git status
+   79  cd ..
+   80  git status
+   81  git add .
+   82  git status
+   83  git commit -m 'add: linux_practice1/tmp/index.php&index_bk.php'
+   84  git log
+   85  ls
+   86  rm tmp/index_bk.php
+   87  ls
+   88  cd tmp
+   89  ls
+   90  cd ..
+   91  git status
+   92  git add .
+   93  git status
+   94  git commit -m 'delete: linux_practice1/tmp/index_bk.php'
+   95  git log
+   96  cd ..
+   97  touch README.md
+   98  ls
+   99  rm first.txt
+  100  ls
+  101  git status
+  102  git add .
+  103  git status
+  104  git commit -m 'rename: first.txt -> README.md'
+  105  git log
+  106  mkdir -p linux_practice2/documents
+  107  ls
+  108  cd linux_practice2
+  109  ls
+  110  cd documents
+  111  touch {gizumo01.md,gizumo02.md,gizumo03.md,gizumo04.md,gizumo05.md,gizumo06.md,gizumo07.md,gizumo08.md,gizumo09.md,gizumo10.md,gizumo11.md,gizumo12.md,gizumo13.md,gizumo14.md,gizumo15.md,gizumo16.md,gizumo17.md,gizumo18.md,gizumo19.md,gizumo20.md,gizumo21.md,gizumo22.md,gizumo23.md,gizumo24.md,gizumo25.md,gizumo26.md,gizumo27.md,gizumo28.md,gizumo29.md,gizumo30.md,gizumo31.md,gizumo32.md,gizumo33.md,gizumo34.md,gizumo35.md,gizumo36.md,gizumo37.md,gizumo38.md,gizumo39.md,gizumo40.md,gizumo41.md,gizumo42.md,gizumo43.md,gizumo44.md,gizumo45.md,gizumo46.md,gizumo47.md,gizumo48.md,gizumo49.md,gizumo50.md}
+  112  ls
+  113  cd ..
+  114  mkdir trash
+  115  ls
+  116  cd trash
+  117  cd ..
+  118  ls
+  119  cd documents
+  120  ls
+  121  mv gizumo20.md /root/server_lesson/linux_practice2/trash
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd trash
+  126  ls
+  127  cd ..
+  128  cd documents
+  129  mv gizumo21.md gizumo22.md gizumo23.md gizumo24.md gizumo25.md gizumo26.md gizumo27.md gizumo28.md gizumo29.md gizumo30.md gizumo31.md gizumo32.md gizumo33.md gizumo34.md gizumo35.md gizumo36.md gizumo37.md gizumo38.md gizumo39.md gizumo40.md /root/server_lesson/linux_practice2/trash
+  130  ls
+  131  cd //
+  132  ls
+  133  cd /root/server_lesson/linux_practice2/trash
+  134  ls
+  135  cd ..
+  136  touch .gitignore
+  137  ls
+  138  ls -a
+  139  vi .gitignore
+  140  vim .gitignore
+  141  cd //
+  142  apt-get install vim
+  143  vim .gitignore
+  144  pwd
+  145  ls -a
+  146  mv .gitignore /root/server_lesson/linux_practice2
+  147  ls -a
+  148  cd /root/server_lesson/linux_practice2
+  149  ls -a
+  150  git status
+  151  history 300 > exec_command.log
